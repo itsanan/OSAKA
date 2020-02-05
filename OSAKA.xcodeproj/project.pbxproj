@@ -101,9 +101,11 @@
 		271C69A623EABBBC008ECE27 /* OSAKA */ = {
 			isa = PBXGroup;
 			children = (
+				271C69DC23EAC601008ECE27 /* ViewModels */,
+				271C69DB23EAC5F1008ECE27 /* Views */,
+				271C69DA23EAC5E6008ECE27 /* Models */,
 				271C69A723EABBBC008ECE27 /* AppDelegate.swift */,
 				271C69A923EABBBC008ECE27 /* SceneDelegate.swift */,
-				271C69AE23EABBBC008ECE27 /* ContentView.swift */,
 				271C69B023EABBBD008ECE27 /* Assets.xcassets */,
 				271C69B523EABBBD008ECE27 /* LaunchScreen.storyboard */,
 				271C69B823EABBBD008ECE27 /* Info.plist */,
@@ -137,6 +139,28 @@
 				271C69CE23EABBBD008ECE27 /* Info.plist */,
 			);
 			path = OSAKAUITests;
+			sourceTree = "<group>";
+		};
+		271C69DA23EAC5E6008ECE27 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		271C69DB23EAC5F1008ECE27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				271C69AE23EABBBC008ECE27 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		271C69DC23EAC601008ECE27 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
